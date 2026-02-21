@@ -65,7 +65,17 @@ font-size:clamp(34px,6vw,64px);
 font-weight:900;
 letter-spacing:4px;
 
-background:linear-gradient(90deg,#00fff2,#ff00d4,#00fff2);
+background:linear-gradient(
+90deg,
+rgb(255,0,0),
+rgb(255,127,0),
+rgb(255,255,0),
+rgb(0,255,0),
+rgb(0,255,255),
+rgb(0,0,255),
+rgb(139,0,255),
+rgb(255,0,0)
+);
 background-size:300%;
 
 -webkit-background-clip:text;
